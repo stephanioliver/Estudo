@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+ 	<link rel="stylesheet" type="text/css" href="formulario.css" media="" >
+ 	<title>Cadastro</title>
+ </head>
+ <body>
+    
+    <fieldset>
+ 	<div>
+ 		<h1 id="title">OCORRÊNCIA DE VENDAS</h1>
+ 		<p> CADASTRO </p>
+    </div>
+       <br>
+    </fieldset>
+
+
+ 	<fieldset>
+ 		<br>
+ 		
+ 			<div>
+ 				<h3><strong> DADOS CLIENTE</strong></label></h3>
+
+ 				
+            </div>
+
+            <div name="campos_marging">
+ 				<label for="Nome"> Nome</label> 
+ 				<input type="text" name="nome" id="nome" required>
+ 			</div>
+               
+ 			<div>
+ 				<label for="Sobrenome">Sobrenome</label>
+ 				<input type="text" name="sobrenome" id="sobrenome" required>
+ 			</div>
+ 	
+            <div>
+ 			    <label for="email"> Email</label>
+ 			    <input type="email" name="email" id="email" required>
+ 		    </div>
+
+ 		    <div>
+            	<label> CPF:</label>
+            	<input type="number" name="CPF" required>
+            </div>
+        	</div>
+        <br>    
+     </fieldset>
+          
+
+     <fieldset>
+     	<br>
+          
+            <div name="campos_marging">
+            	<h3><label><strong>INFORMAÇÕES DE ATENDIMENTO</strong></label></h3>
+            </div>
+
+            <div>
+            	<label> Numero do contrato:</label>
+            	<input type="number" name="contrato" required>
+            </div>
+            
+            <div> Protocolo
+            <input type="number" name="Protocolo" required>
+            </div>
+         <br>   
+    </fieldset>
+ 		
+    
+    <fieldset>
+    	<br>
+
+ 			<div name="campos_marging">
+ 				<h3><label><strong> PRODUTO</strong></label></h3>
+ 			</div>
+
+
+ 			<div>
+ 			    <label for="plano"> Plano ofertado:</label>
+ 			    <select id= "plano" required="">
+ 			    	<option select disabled value=""> Selecione.. </option>
+ 			    	<option>Selecione</option>
+ 			    	<option>Controle 17GB</option>
+ 			    	<option>Pós 30GB</option>
+                </select>
+
+            </div>
+            <div>
+            	<label> Valor </label>
+            	<select id="Valor" required>
+            	    <option select disabled value="">Selecione.. </option>
+            	    <option>R$44,99</option>
+            	    <option>R$59,99</option>
+            	    <option>R$79,99</option>
+            	    <option>R$89,99</option>
+                </select>
+
+
+            </div>
+ 			    <label>Portabilidade:</label>
+ 			    <input type="radio" name="devweb" value=sim checked=""> Sim
+ 			</label>
+ 			
+ 			<label>
+ 				<input type="radio" name="devweb" value="não"> Não
+ 			</label>
+ 			
+ 			<label>
+ 				<input type="radio" name="devweb" value=" migração"> Migração
+ 			</label>
+ 			<div>
+ 				<label> Operadora</label>
+ 				<input type="text" name="Operadora" required>
+ 			</div>
+
+            <div>
+ 			   <label> Quantidade de dependentes:</label>
+ 		       <input type="text" name="dependentes" id="dependentes">
+ 		    </div>
+
+ 		    <div>
+ 		    	<label> Telefone titular:</label>
+ 		    	<input type="number" name="telefone titular" required>
+ 		    </div>
+
+ 		    <div>
+ 		    	<label> Telefone Dependente:</label>
+ 		    	<input type="number" name="Telefone Dependente">
+ 		    </div>
+
+            <div>
+ 		    	<label> Telefone Dependente:</label>
+ 		    	<input type="number" name="Telefone Dependente">
+ 		    </div>
+
+ 		    <div>
+ 		    	<label> Telefone Dependente:</label>
+ 		    	<input type="number" name="Telefone Dependente">
+ 		    </div>
+        <br>
+    
+
+ 		    <div name="campos_marging">
+ 		    	<br>
+ 		    	<h3><label><strong>OBSERVAÇÃO(ÕES)</strong> </label></h3>
+ 		    </div>
+
+ 		    <div>
+ 		    	<textarea rows="6" style="width: 26em" id="OBSERVAÇÃO(ÕES)" name="OBSERVAÇÃO(ÕES"></textarea>
+ 		
+ 		    </div>
+
+
+           
+ 		    <button class="button" type="submit">FINALIZAR VENDA</button>
+      
+           
+ 		
+ 	</form>
+ 
+ </body>
+ </html>
